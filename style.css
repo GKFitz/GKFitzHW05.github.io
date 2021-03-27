@@ -1,0 +1,16 @@
+ol{
+    list-style-type: none;
+    padding:0;
+}
+
+li {
+    background-color: silver;
+}
+li.current {
+    background-color: lime;
+}
+ /* select all list items that come after current */
+li.current ~ li {
+    background-color: tomato;
+    
+}
