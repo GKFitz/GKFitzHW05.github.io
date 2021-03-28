@@ -4,14 +4,14 @@
 //Dev side
 //when page loads
 // this will load the other function we will use
-// developer side
+
 $(document).ready(init);
 function init() {
     let d = getCurrentDate();
 
     getData();
     colorCode(d);
-    submitBtn()
+    submitBtn();
 
 }
 
@@ -22,7 +22,7 @@ function getCurrentDate() {
 
     $("p+p").text(dString);
 
-
+    return d;
 
 }
 // read data from local storage

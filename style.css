@@ -4,10 +4,10 @@ ol{
 }
 
 li {
-    background-color: silver;
+    background-color: green;
 }
 li.current {
-    background-color: lime;
+    background-color:blue;
 }
  /* select all list items that come after current */
 li.current ~ li {
