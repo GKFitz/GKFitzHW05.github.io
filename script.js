@@ -9,6 +9,7 @@ function init() {
     var d = getCurrentDate();
 
     getData():
+    colorCode(d);
    
 }
 
@@ -40,6 +41,20 @@ function getData() {
 }
 // if there is data from LS insert into HTML structure
 //even when there isnt data from LS we need color coding
+function colorCode(d) {
+    let hours = d.getHours();
+    let amOrpm = "am";
+    if(hours > 12) {
+        hours -= 12;
+        amOrpm = "pm";
+    }
+    let textArea = $("#" + amOrpm + hours);
+    if(textArea) {
+        textArea.parent("li").addClass("current");
+    }
+
+    
+}
 // addEventListeners to all save buttons
 
 
