@@ -10,7 +10,8 @@ function init() {
     let d = getCurrentDate();
 
     getData();
-    colorCode();
+    colorCode(d);
+    submitBtn()
 
 }
 
@@ -21,7 +22,7 @@ function getCurrentDate() {
 
     $("p+p").text(dString);
 
-    return d;
+
 
 }
 // read data from local storage
@@ -79,6 +80,7 @@ function saveAppt() {
     let textArea = button.prev();
     let id = textArea.attr("id");
     let appt = textArea.val();
+    localStorage.setItem(id, appt);
     
 }
 
