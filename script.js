@@ -74,7 +74,13 @@ function submitBtn() {
 // when user clicks save btn
 // saves the timeslot, and the text to LS list
 
-
+function saveAppt() {
+    let button = $(this);
+    let textArea = button.prev();
+    let id = textArea.attr("id");
+    let appt = textArea.val();
+    
+}
 
 
 
