@@ -4,29 +4,30 @@
 //Dev side
 //when page loads
 // this will load the other function we will use
+// developer side
 $(document).ready(init);
 function init() {
-    var d = getCurrentDate();
+    let d = getCurrentDate();
 
-    getData():
-    colorCode(d);
-   
+    getData();
+    colorCode();
+
 }
 
 // Display current date
 function getCurrentDate() {
-    var d = new Date();
-    var dString = d.toLocaleString();
+    let d = new Date();
+    let dString = d.toLocaleString();
 
     $("p+p").text(dString);
 
-    
+    return d;
 
 }
-
 // read data from local storage
+// if there is data from LS insert into HTML structure
 function getData() {
-    var textAreas = $("textarea");
+    let textAreas = $("textarea");
     // console.log(textAreas)
 
     $.each(textAreas, function(index, textArea){
@@ -39,8 +40,10 @@ function getData() {
     });
     
 }
-// if there is data from LS insert into HTML structure
+    
+
 //even when there isnt data from LS we need color coding
+
 function colorCode(d) {
     let hours = d.getHours();
     let amOrpm = "am";
@@ -56,6 +59,13 @@ function colorCode(d) {
     
 }
 // addEventListeners to all save buttons
+
+function submitBtn() {
+    let buttons = $("button");
+    $.each(buttons, function(index, button) {
+        $(button).on("click", saveAppt);
+    });
+}
 
 
 
