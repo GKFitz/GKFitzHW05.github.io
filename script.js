@@ -6,23 +6,38 @@
 // this will load the other function we will use
 $(document).ready(init);
 function init() {
-    let d = getCurrentDate();
+    var d = getCurrentDate();
 
+    getData():
    
 }
 
 // Display current date
 function getCurrentDate() {
-    let d = new Date();
-    let dString = d.toLocaleString();
+    var d = new Date();
+    var dString = d.toLocaleString();
 
     $("p+p").text(dString);
 
-    return d;
+    
 
 }
 
 // read data from local storage
+function getData() {
+    var textAreas = $("textarea");
+    // console.log(textAreas)
+
+    $.each(textAreas, function(index, textArea){
+        let id = textArea.id;
+        let appt =localStorage.getItem(id);
+
+        if(appt) {
+            textArea.value= appt;
+        }
+    });
+    
+}
 // if there is data from LS insert into HTML structure
 //even when there isnt data from LS we need color coding
 // addEventListeners to all save buttons
