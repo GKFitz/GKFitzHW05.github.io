@@ -23,7 +23,7 @@ li.current {
 
 /* select all list items that come after current */
 li.current ~ li {
-    background-color: rgb(0, 124, 128);
+    background-color: rgb(0, 34, 128);
     
 }
 
@@ -40,7 +40,7 @@ p {
 label{
     font-weight: bold; 
     width: 10%;
-    background-color: green;
+    background-color: pink;
 }
 textarea {
     width: 90%;
@@ -49,4 +49,6 @@ textarea {
     justify-content: center;
     background-color:lightblue;
 }
-
+button {
+    background-color: rgb(0, 47, 255);
+}
