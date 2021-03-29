@@ -8,4 +8,11 @@ When the user opens the planner the current day is displayed at the top of the c
 Screenshots
 ![image](https://user-images.githubusercontent.com/73301331/112785387-deba3d80-9021-11eb-9c41-b4e481140a3d.png)
 
+
+Technologies Used:
+Jquery
+AwesomeFonts
+Bootstrap
+
 Link:
+https://gkfitz.github.io/GKFitzHW05.github.io/.
