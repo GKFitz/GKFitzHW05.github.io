@@ -1,5 +1,5 @@
 //create a day planner  
-//each hour needs to generate it own div; 10hours: 
+//each hour needs to generate it own div; 12hours: 
 
 //Dev side
 //when page loads
