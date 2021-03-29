@@ -1,10 +1,13 @@
 header {
-    background-color: blue;
-    padding: 0;
+    background-color: rgb(0, 140, 255);
+    padding-bottom: 50px;
+    outline-color: black bold;
+
 }
 ol{
     list-style-type: none;
-    padding:70px;
+    padding:125px;
+    padding-top: 0;
     align-items: center;
     justify-content: center;
     
@@ -12,18 +15,22 @@ ol{
 
 li {
     background-color: silver;
+    display: flex;
 }
 li.current {
-    background-color:green;
+    background-color: rgb(242, 192, 255);
 }
- /* select all list items that come after current */
+
+/* select all list items that come after current */
 li.current ~ li {
-    background-color: blueviolet;
+    background-color: rgb(0, 124, 128);
     
 }
 
 h1 {
     text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
 }
 
 p {
@@ -31,13 +38,15 @@ p {
 }
 
 label{
-    font-weight: bold;
-    padding: 10px;
-    
-    
+    font-weight: bold; 
+    width: 10%;
+    background-color: green;
 }
 textarea {
     width: 90%;
-    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color:lightblue;
 }
 
