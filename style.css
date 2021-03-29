@@ -1,16 +1,43 @@
+header {
+    background-color: blue;
+    padding: 0;
+}
 ol{
     list-style-type: none;
-    padding:0;
+    padding:70px;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 li {
-    background-color: green;
+    background-color: silver;
 }
 li.current {
-    background-color:blue;
+    background-color:green;
 }
  /* select all list items that come after current */
 li.current ~ li {
-    background-color: tomato;
+    background-color: blueviolet;
     
 }
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+label{
+    font-weight: bold;
+    padding: 10px;
+    
+    
+}
+textarea {
+    width: 90%;
+    padding-left: 10px;
+}
+
