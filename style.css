@@ -14,15 +14,15 @@ ol{
 }
 
 li {
-    background-color: silver;
+    /* background-color: yellow; */
     display: flex;
 }
-li.current {
-    background-color: rgb(242, 192, 255);
+li.current > textarea {
+    background-color:red;
 }
 
 /* select all list items that come after current */
-li.current ~ li {
+li.current ~ li > textarea{
     background-color: rgb(0, 34, 128);
     
 }
@@ -40,15 +40,16 @@ p {
 label{
     font-weight: bold; 
     width: 10%;
-    background-color: pink;
+    background-color: yellow; 
 }
 textarea {
     width: 90%;
     padding-right: 10px;
     align-items: center;
     justify-content: center;
-    background-color:lightblue;
+    background-color:lightblue; */
 }
+
 button {
     background-color: rgb(0, 47, 255);
 }
