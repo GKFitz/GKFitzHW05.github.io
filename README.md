@@ -14,7 +14,9 @@ Screenshots
 
 Technologies Used:
 Jquery
+
 AwesomeFonts
+
 Bootstrap
 
 Link:
