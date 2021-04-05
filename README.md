@@ -20,5 +20,9 @@ AwesomeFonts
 
 Bootstrap
 
+Questions:
+
+If you have and questions about this project, please feel free to reach out to me via email or github.
+
 Link:
 https://gkfitz.github.io/GKFitzHW05.github.io/.
