@@ -24,5 +24,9 @@ Questions:
 
 If you have and questions about this project, please feel free to reach out to me via email or github.
 
+gkf2103@gmail.com
+
+https://github.com/GKFitz
+
 Link:
 https://gkfitz.github.io/GKFitzHW05.github.io/.
